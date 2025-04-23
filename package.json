@@ -1,0 +1,27 @@
+{
+  "name": "vibe-coding-mcp-ftp-ssh",
+  "version": "1.0.0",
+  "description": "Servidor MCP para conectar FTP/SSH em hospedagens WordPress",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:http": "node index.js --http",
+    "dev": "node --watch index.js",
+    "dev:http": "node --watch index.js --http"
+  },
+  "keywords": [
+    "mcp",
+    "ftp",
+    "ssh",
+    "wordpress",
+    "cursor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fastmcp": "^0.3.1",
+    "ssh2": "^1.16.0", 
+    "ftp": "^0.3.10",
+    "zod": "^3.22.4"
+  }
+} 
